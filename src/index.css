@@ -1,0 +1,315 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+#Landing_page_container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff5101;
+}
+#header{
+  width: 100%;
+  height: 12vh;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  padding: 4vw 6vw;
+}
+#swiggy_logo{
+  width: 13vw;
+  margin-left: 4vw;
+}
+#get_app_button{
+  width: 11vw;
+  height: 7vh;
+  background-color: transparent;
+  color: white;
+  font-size: 1.3vw;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 2px;
+}
+.headings{
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+#swiggy_corporate_heading{
+  margin-left: 30vw;
+}
+#profile_logo{
+  position: relative;
+  top: 2px;
+}
+#main_content{
+  width: 100vw;
+  height: 85vh;
+  /* background-color: aqua  ; */
+  display: flex;
+
+}
+#first_image{
+  width: 20vw;
+  height: 70vh;
+  /* background-color: black; */
+  background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png);
+  background-size: 100%;
+}
+#middel_division{
+  width: 60vw;
+  height: 83.9vh;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#middel_division_heading{
+  text-align: center;
+  font-size: 3.5vw;
+  color: white;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+#search_bar_container{
+  width: 100%;
+  height: 30%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#dropdown_container{
+  width: 20vw;
+  height: 8vh;
+  font-size: 1.1vw;
+  font-weight: 500;
+  color: gray;
+  background-image: url(https://online.kfc.co.in/static/media/Search_Pin.e88a4d93.svg);
+  background-repeat: no-repeat;
+  background-position: 1vw,2vw;
+  background-size: 1.4vw;
+  padding-left: 3vw;
+}
+#search_resturents_input_box{
+  width: 38vw;
+  height: 8vh;
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: gray;
+  margin-left: 1.5vw;
+  background-image: url(https://www.nicepng.com/png/full/5-55201_search-icon-png-grey.png);
+  background-size: 1.5vw;
+  background-repeat: no-repeat;
+  background-position: 34vw,90vw;
+  padding-left: 2vw;
+}
+#dropdown_container,#search_resturents_input_box{
+  border: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+#second_image{
+  width: 20vw;
+  height: 70vh;
+  background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png);
+  background-size: 100%;
+}
+#cards_containers{
+  width: 69vw;
+  height: 43vh;
+  /* background-color: blueviolet; */
+}
+#food_delivery_image{
+  width: 23vw;
+  padding: 0px;
+}
+#best_food_options_container{
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(240, 237, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#best_food_options_head_container{
+  width: 100vw;
+  height: 15vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vw 8vw;
+}
+#best_food_option_heading{
+  font-size: 1.5vw;
+  padding-left: 5vw;
+}
+#best_food_option_buttons{
+  width: 5vw;
+  margin-right: 7vw;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ff5101; */
+}
+.arrow_buttons{
+  font-size: 1.5vw;
+  border-radius: 50%;
+  border: none;
+  color: gray;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px gray;
+  transition: transform 1000;
+  cursor: pointer;
+}
+.arrow_buttons:active{
+  transform: scale(0.8);
+}
+#menu_items{
+  width: 75%;
+  height: 60vh;
+  /* background-color: blueviolet; */
+}
+#first_row_best_food_option{
+  width: 100%;
+  height: 50%;
+  /* background-color: black; */
+}
+#second_row_best_food_option{
+   width: 100%;
+  height: 50%;
+  /* background-color: gray; */
+}
+#second_row_best_food_option,#first_row_best_food_option{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_images{
+  width: 12vw;
+}
+.menu_image_buttons,.instamart_image_buttons{
+  border: none;
+  outline: none;
+}
+#instamart_items_container{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+#instamart_image_container{
+  width: 80%;
+  height: 35vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.instamart_images{
+  width: 12vw;
+}
+#banner_image{
+  width:100vw;
+  height: 40vh;
+  background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png);
+  background-size: 100%;
+  background-color: #ff5101;
+}
+.footer {
+  background: #f5f5f5;
+  padding: 50px 80px;
+  font-family: Arial, sans-serif;
+  color: #3d4152;
+}
+
+/* TOP */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-logo h2 {
+  color: #fc8019;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+}
+
+/* COLUMNS */
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  margin: 8px 0;
+  cursor: pointer;
+  color: #686b78;
+}
+
+.footer-column p:hover {
+  color: #000;
+}
+
+.mt {
+  margin-top: 25px;
+}
+
+/* SELECT */
+.city-select {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* SOCIAL */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* APP BUTTONS */
+.app-buttons img {
+  height: 45px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
